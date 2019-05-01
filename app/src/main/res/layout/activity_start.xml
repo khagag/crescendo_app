@@ -29,12 +29,25 @@
         android:textColor="@android:color/holo_orange_dark" />
 
     <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton"
+        android:layout_marginTop="57dp"
+        android:src="@drawable/crescendo_logo"
+        android:background="@drawable/roundcorner"
+        android:padding="1dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="62dp" />
+    <!--android:layout_toLeftOf="@+id/imageButton"-->
+    <!--
+    <ImageButton
         android:id="@+id/imageButton"
         android:layout_width="244dp"
         android:layout_height="240dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="103dp"
-        app:srcCompat="@drawable/logo" />
-
+        android:background="@drawable/roundcorner"
+        app:srcCompat="@drawable/crescendo_logo" />
+-->
 </RelativeLayout>
